@@ -3,3 +3,7 @@ Template
 
 Libraries/Packages Used:
 1. Tailwind Css
+
+Inspired by:
+JavaScript Mastery
+https://www.youtube.com/watch?v=0fYi8SGA20k
