@@ -1,0 +1,5 @@
+Template
+1. Vite
+
+Libraries/Packages Used:
+1. Tailwind Css
