@@ -14,6 +14,7 @@ import {
     git,
     mysql,
     java,
+    python,
     ncb,
     reggae,
     harrison,

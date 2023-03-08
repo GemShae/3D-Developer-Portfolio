@@ -1,4 +1,4 @@
-import logo from "./logo.jpg";
+import logo from "./logo.png";
 import ai from "./ai.png";
 import data from "./data.png";
 import mobile from "./mobile.png";
@@ -53,4 +53,7 @@ export {
   redux,
   tailwind,
   threejs,
+  harrison,
+  ncb,
+  reggae,
 };
