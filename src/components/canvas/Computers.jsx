@@ -25,7 +25,7 @@ const Computers = () => {
       <primitive 
         object={computer.scene} 
         scale={1.75} //How large the object is
-        position={[0, -10.25, -1.5]} //x,y,z coordinates
+        position={[0, -9.25, -1.5]} //x,y,z coordinates
         rotation={[-0.01, -0.2, -0.1]} 
       />  
     </mesh>
@@ -48,4 +48,4 @@ const ComputersCanvas = () => {
   )
 }
 
-export default Computers
+export default ComputersCanvas
