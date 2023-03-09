@@ -4,6 +4,11 @@ Template
 Libraries/Packages Used:
 1. Tailwind Css
 
+Additions Needed:
+1. Social Media
+2. Resume
+3. Who am I
+
 Inspired by:
 JavaScript Mastery
 https://www.youtube.com/watch?v=0fYi8SGA20k
