@@ -25,9 +25,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 
-import harrison from "./company/harrison.jpeg";
+import harrison from "./company/harrison.png";
 import ncb from "./company/ncb.png";
-import reggae from "./company/reggae.jpg";
+import reggae from "./company/reggae.png";
 
 export {
   logo,

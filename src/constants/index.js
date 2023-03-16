@@ -110,22 +110,10 @@ import {
   
   const experiences = [
     {
-      title: "Innovation Intern",
-      company_name: "National Commercial Bank Limited",
-      icon: ncb,
-      iconBg: "#383E56",
-      date: "July 2022 - August 2022",
-      points: [
-        "Completed an innovation SWOT analysis on the current state of play for NCB.",
-        "Developed a concept/solution to help the business differentiate from competitors.",
-        "Developed a wire frame prototype of the proposed solution.",
-      ],
-    },
-    {
       title: "Administrative Assistant",
       company_name: "Reggae Tours",
       icon: reggae,
-      iconBg: "#E6DEDD",
+      iconBg: "#3a5859",
       date: "June 2019 - Present",
       points: [
         "Management of insurance for a fleet of over 30 vehicles.",
@@ -134,11 +122,23 @@ import {
       ],
     },
     {
+      title: "Innovation Intern",
+      company_name: "National Commercial Bank Limited",
+      icon: ncb,
+      iconBg: "#dfeff0",
+      date: "July 2022 - August 2022",
+      points: [
+        "Completed an innovation SWOT analysis on the current state of play for NCB.",
+        "Developed a concept/solution to help the business differentiate from competitors.",
+        "Developed a wire frame prototype of the proposed solution.",
+      ],
+    },
+    {
       title: "Programming Teacher",
       company_name: "Harrison Memorial High School",
       icon: harrison,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      iconBg: "#416263",
+      date: "Jan 2022 - March 2023",
       points: [
         "Develop and deliver a comprehensive curriculum for high school students to learn programming through the use of pascal, pseudocode and flowchart.",
         "Engage and motivate students by creating a positive and supportive classroom environment that fosters critical thinking, problem-solving, and creativity.",
