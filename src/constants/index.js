@@ -29,8 +29,8 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "works",
+      title: "Works",
     },
     {
       id: "contact",
@@ -91,7 +91,7 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
+      name: "Git",
       icon: git,
     },
     {
@@ -203,7 +203,7 @@ import {
         "More projects can be found on my GitHub pages.",
       tags: [
         {
-          name: "Github",
+          name: "github",
           color: "blue-text-gradient",
         },
         {

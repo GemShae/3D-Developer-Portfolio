@@ -24,8 +24,8 @@ const Computers = ({ isMobile }) => {
       //Primitive object
       <primitive 
         object={computer.scene} 
-        scale={ isMobile ? 1.25 : 1.75 } //How large the object is
-        position={ isMobile ? [0, -9, -2.2] : [0, -9.25, -1.5]} //x,y,z coordinates
+        scale={ isMobile ? 0.7 : 0.75 } //How large the object is
+        position={ isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]} //x,y,z coordinates
         rotation={[-0.01, -0.2, -0.1]} 
       />  
     </mesh>
@@ -51,7 +51,7 @@ const ComputersCanvas = () => {
   }, [])
 
   return (
-    <Canvas frameloop='demand' shadows camera={{ position: [20, 3, 5], fav: 25 }} gl={{ preserveDrawingBuffer: true }} >
+    <Canvas frameloop='demand' shadows dpr={[1, 2]} camera={{ position: [20, 3, 5], fov: 25 }} gl={{ preserveDrawingBuffer: true }} >
       <Suspense fallback={<CanvasLoader  /> } >
         <OrbitControls enableZoom={false} 
           maxPolarAngle={Math.PI  / 2} /* Allows you to only rotate it around a specific angle */

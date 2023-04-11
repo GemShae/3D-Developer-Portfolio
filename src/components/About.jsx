@@ -1,5 +1,5 @@
 import React from 'react';
-import Tilt from 'react-tilt';
+import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
@@ -11,8 +11,8 @@ const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className='xs:w-[250px] w-full'>
       <motion.div
-        variants={fadeIn("right", "spring", 0.5*index, 0.75)}
-        className='w-full green-blue-gradient p-[1px] rounded-[20px] shadow-card'
+        variants={fadeIn("right", "spring", 1*index, 1)}
+        className='w-full green-blue-gradient p-[3px] rounded-[20px] shadow-card'
       >
         <div
           options={{
@@ -44,7 +44,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         Hello, my name is Shanya Connell, but I'm known as GemShae on social media. 
-        I recently graduated from the University of Technology Jamaica with a Bachelor of Science in Computer Science. 
+        I recently graduated from the University of Technology, Jamaica with a Bachelor of Science in Computer Science. 
         With a GPA of 3.97 on a 4.0 scale, I obtained first class honors as well as the Edward Seaga Award 2022 for having the highest 
         undergraduate GPA in the University. I am currently pursuing a master's degree in Computer Science at the University of East London. 
         <br /> <br /> 
