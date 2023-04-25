@@ -21,6 +21,7 @@ import {
     truth,
     ecommerce, 
     gemshae,
+    hilton
   } from "../assets";
   
   export const navLinks = [
@@ -113,48 +114,66 @@ import {
       title: "Administrative Assistant",
       company_name: "Reggae Tours",
       icon: reggae,
-      iconBg: "#3a5859",
+      iconBg: "#128394",
       date: "June 2019 - Present",
       points: [
         "Management of insurance for a fleet of over 30 vehicles.",
-        "Documented vehicle maintenance dates and details of repairs or upgrades performed.",
-        "Prepared financial and fleet maintenance reports.",
+        "Document vehicle maintenance dates and details of repairs or upgrades performed.",
+        "Prepare financial and fleet maintenance reports.",
+      ],
+    },
+    {
+      title: "IT Intern",
+      company_name: "Hilton Rose Hall Resort and Spa",
+      icon: hilton,
+      iconBg: "#c1eef5",
+      date: "June 2022 - July 2022",
+      points: [
+        "Provided immediate and efficient technical help to hotel workers and guests, troubleshooting and fixing hardware and software issues.",
+        "Assisted with the installation, configuration, and maintenance of IT systems, such as computers, servers, printers, and networking equipment.",
+        "Assisted with managing user accounts and access permissions, ensuring proper authorization and authentication for hotel staff.",
       ],
     },
     {
       title: "Innovation Intern",
       company_name: "National Commercial Bank Limited",
       icon: ncb,
-      iconBg: "#dfeff0",
+      iconBg: "#128394",
       date: "July 2022 - August 2022",
       points: [
-        "Completed an innovation SWOT analysis on the current state of play for NCB.",
-        "Developed a concept/solution to help the business differentiate from competitors.",
-        "Developed a wire frame prototype of the proposed solution.",
+        "Collaborated with my team to identify and research emerging technologies and trends in the financial industry, and propose innovative solutions to improve business processes and customer experience.",
+        "Assisted in conducting feasibility studies, proof of concepts, and pilot projects for new technology initiatives, evaluating their potential impact on the bank's operations, security, and compliance requirements.",
+        "Assisted in the development of business cases, presentations, and reports to communicate the value proposition and potential benefits of innovative technology initiatives to senior management and stakeholders in the bank",
       ],
     },
     {
-      title: "Programming Teacher",
+      title: "Programming & Database Teacher",
       company_name: "Harrison Memorial High School",
       icon: harrison,
-      iconBg: "#416263",
-      date: "Jan 2022 - March 2023",
+      iconBg: "#c1eef5",
+      date: "Jan 2022 - April 2023",
       points: [
-        "Develop and deliver a comprehensive curriculum for high school students to learn programming through the use of pascal, pseudocode and flowchart.",
-        "Engage and motivate students by creating a positive and supportive classroom environment that fosters critical thinking, problem-solving, and creativity.",
-        "Use a variety of teaching strategies and techniques to accommodate different learning styles and abilities, such as project-based learning, peer-to-peer collaboration, and individualized instruction.",
+        "Developed and delivered engaging lesson plans and instructional materials to high school students, teaching programming and database concepts using the required programming languages, databases, and tools",
+        "Provided hands-on guidance and support to students in learning and applying programming and database skills, including problem-solving, coding, debugging, and database design and management.",
+        "Used a variety of teaching strategies and techniques to accommodate different learning styles and abilities, such as project-based learning, peer-to-peer collaboration, and individualized instruction.",
       ],
     },
   ];
   
   const testimonials = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as my brand, but Shanya proved me wrong.",
-      name: "Nickoy Connell",
+      testimonial: "Shanya's exceptional teaching of programming and database concepts at our high school has empowered our students with valuable technical skills and prepared them for success in their exams.",
+      name: "Keisha Allen",
+      designation: "Principal",
+      company: "Harrison Memorial High School",
+      image: harrison,
+    },
+    {
+      testimonial: "Shanya's expertise in software engineering and development resulted in a cutting-edge mobile application for our company, enhancing our customer experience and streamlining our operations.",
+      name: "Gregg Connell",
       designation: "CEO",
-      company: "Truth Brand Limited",
-      image: truth,
+      company: "Reggae Tours",
+      image: reggae,
     },
   ];
   
