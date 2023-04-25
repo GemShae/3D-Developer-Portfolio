@@ -43,7 +43,7 @@
   );
 }
 
-.yellow-blue-gradient {
+.yellow-green-gradient {
   background: "#ffff00";
   background: linear-gradient(90.13deg, #ffff00 1.9%, #05fa3d 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #ffff00 1.9%, #05fa3d 97.5%);
