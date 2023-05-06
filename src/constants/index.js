@@ -151,7 +151,7 @@ import {
       company_name: "Harrison Memorial High School",
       icon: harrison,
       iconBg: "#c1eef5",
-      date: "Jan 2022 - April 2023",
+      date: "Jan 2022 - May 2023",
       points: [
         "Developed and delivered engaging lesson plans and instructional materials to high school students, teaching programming and database concepts using the required programming languages, databases, and tools",
         "Provided hands-on guidance and support to students in learning and applying programming and database skills, including problem-solving, coding, debugging, and database design and management.",
