@@ -8,8 +8,8 @@ module.exports = {
         primary: "#000e28",
         secondary: "#02c3e0",
         tertiary: "#04153b",
-        "black-100": "#0B4647",
-        "black-200": "#32936F",
+        "black-100": "#011947",
+        "black-200": "#053b06",
         "white-100": "#f2f7f7",
       },
       boxShadow: {
