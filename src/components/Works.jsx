@@ -13,7 +13,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
       className='sm:w-[360px] w-full'
     >
       <motion.div 
-        variants={fadeIn("up", "spring", index*1, 1)}
+        variants={fadeIn("up", "spring", index*0.5, 0.75)}
         className='w-full yellow-green-gradient p-[3px] rounded-[20px] shadow-card'
       >
         <div
