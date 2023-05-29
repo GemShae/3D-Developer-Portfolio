@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
@@ -6,8 +6,6 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-
-// 
 
 const Contact = () => {
   const formRef = useRef();
@@ -29,20 +27,20 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send(
-      'service_it4pq7k', 
-      'template_y93rdww', 
+      import.meta.env.VITE_APP_EMAILJS_SERVICE_ID, 
+      import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID, 
       {from_name: form.name, to_name: 'Shanya', from_email: form.email, to_email: 'shanyaconnell@gmail.com', message: form.message, },
-      '_ZV1oRHogkZIARI6R'
+      import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
       ).then(() => {
         setLoading(false);
         alert('Thank you. I will get back to you as soon as possible.');
         setForm({ name: '', email: '', message: '',})
       }, (error) => {
         setLoading(false);
-        console.log(error);
+        console.error(error);
         alert('Something went wrong. Please try again.')
       }
-      );
+    );
   };
 
   return (
@@ -84,7 +82,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
-              rows="7" 
+              rows={7}
               name="message"
               value={form.message}
               onChange={handleChange} 
@@ -93,13 +91,15 @@ const Contact = () => {
             />
           </label>
 
-          <button
-            type="submit"
-            className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
-          >
-            {loading ? "Sending..." : "Send"}
-
-          </button>
+          <div className="flex justify-center items-center">
+            <button
+              type="submit"
+              className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
+            >
+              {loading ? "Sending..." : "Send"}
+            </button>
+          </div>
+          
         </form>
       </motion.div>
 
